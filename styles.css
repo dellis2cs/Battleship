@@ -1,0 +1,36 @@
+.cell {
+  border: 1px solid black;
+  transition: all 0.25s;
+}
+.container {
+  padding: 20px;
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  gap: 10%;
+}
+
+.boardContainer {
+  margin: 20px;
+  margin-top: 0;
+}
+
+.rowLabels {
+  display: flex;
+  margin-left: 40px;
+  gap: 49.3429px;
+}
+
+.boardOuterContainer {
+  display: flex;
+}
+
+.colLabels {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.cell:hover {
+  background-color: rgb(204, 204, 204);
+}
